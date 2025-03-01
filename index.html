@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AQUAWORLD</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Color azul claro */
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0077b6; /* Azul oscuro */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #023e8a; /* Azul más oscuro */
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            display: grid;
+            grid-template-columns: 3fr 1fr; /* 3 partes para contenido, 1 para aside */
+            gap: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #0077b6;
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 10px;
+        }
+        article {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%; /* Asegura que las imágenes ocupen el 100% del contenedor */
+            max-width: 400px; /* Tamaño máximo para todas las imágenes */
+            height: auto;
+            border-radius: 8px;
+            display: block;
+            margin: 20px auto; /* Centra las imágenes */
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        aside {
+            background-color: #caf0f8; /* Azul claro */
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .publicidad {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .publicidad img {
+            width: 100%;
+            max-width: 200px;
+            margin-bottom: 10px;
+        }
+        footer {
+            background-color: #023e8a; /* Azul oscuro */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+        form {
+            margin-top: 10px;
+        }
+        input, textarea, button {
+            padding: 10px;
+            margin: 5px 0;
+            width: 100%;
+            max-width: 300px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #0077b6;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #005f8a;
+        }
+        a {
+            text-decoration: none; /* Elimina el subrayado de los enlaces */
+            color: inherit; /* Mantiene el color del texto original */
+        }
+        a:hover {
+            text-decoration: underline; /* Subraya el enlace al pasar el mouse */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabecera -->
+    <header>
+        <h1>AQUAWORLD</h1>
+        <p>Descubre el mundo de la natación y mejora tu técnica con nosotros.</p>
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#beneficios">Beneficios</a>
+        <a href="#tecnicas">Técnicas</a>
+        <a href="#equipo">Equipo</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Contenido principal -->
+        <div>
+            <!-- Sección 1: Inicio -->
+            <section id="inicio">
+                <h2>Inicio</h2>
+                <article>
+                    <p>La natación es uno de los deportes más completos y saludables, utiliza la mayoría de los grupos musculares y es un exigente ejercicio físico que ayuda a mantener el corazón y los pulmones saludables. En esta página encontrarás información sobre sus beneficios, técnicas y el equipo necesario para empezar.</p>
+                    <img src="1.jpg" alt="Personas nadando en una piscina">
+                </article>
+            </section>
+
+            <!-- Sección 2: Beneficios -->
+            <section id="beneficios">
+                <h2>Beneficios de la Natación</h2>
+                <article>
+                    <p>La natación ofrece múltiples beneficios para la salud física y mental. Algunos de ellos incluyen:</p>
+                    <ul>
+                        <li>Mejora la resistencia cardiovascular.</li>
+                        <li>Fortalece los músculos de todo el cuerpo.</li>
+                        <li>Reduce el estrés y mejora el estado de ánimo.</li>
+                        <li>Es un deporte de bajo impacto, ideal para todas las edades.</li>
+                        <li>Ayuda a mantener un peso saludable.</li>
+                        <li>Mejora la flexibilidad y coordinación.</li>
+                        <li>Fomenta la concentración.</li>
+                        <li>Mejora la calidad del sueño.</li>
+                        <li>Refuerza el sistema inmunológico.</li>
+                    </ul>
+                    <p>Entre muchos otros.</p>
+                </article>
+            </section>
+
+            <!-- Sección 3: Técnicas -->
+            <section id="tecnicas">
+                <h2>Técnicas de Natación</h2>
+                <article>
+                    <p>Existen diferentes estilos de natación, cada uno con su propia técnica. Los más comunes son:</p>
+                    <ol>
+                        <li><strong>Crol:</strong> El estilo más común, rápido y eficiente. Se caracteriza por un movimiento alternado de los brazos, donde uno avanza por encima del agua mientras el otro se impulsa debajo, acompañado de un batido constante de piernas. La respiración se realiza girando la cabeza hacia un lado en coordinación con el movimiento de los brazos.</li>
+                        <img src="2.jpg" alt="Estilo Crol">
+                        <li><strong>Dorso:</strong> Similar al crol, pero se realiza boca arriba. Los brazos se mueven de manera alternada, con uno saliendo del agua mientras el otro impulsa el cuerpo debajo de la superficie. Las piernas realizan un batido constante, similar al crol. Una de las ventajas de este estilo es que permite respirar con facilidad, ya que la cara siempre está fuera del agua.</li>
+                        <img src="3.jpg" alt="Estilo Dorso">
+                        <li><strong>Pecho:</strong> Es un estilo más lento pero técnicamente desafiante. Se caracteriza por un movimiento simétrico de brazos y piernas: los brazos se extienden hacia adelante y luego se abren en un círculo hacia atrás, mientras las piernas realizan una patada de rana. La respiración se coordina con el movimiento de los brazos, levantando la cabeza para inhalar.</li>
+                        <img src="4.jpg" alt="Estilo Pecho">
+                        <li><strong>Mariposa:</strong> Es el más exigente físicamente y requiere una gran fuerza y coordinación. Se distingue por un movimiento simultáneo de los brazos, que salen del agua al mismo tiempo y se impulsan hacia adelante, acompañado de una patada ondulante conocida como "delfín". La respiración se realiza levantando la cabeza hacia adelante durante el impulso de los brazos.</li>
+                        <img src="5.jpg" alt="Estilo Mariposa">
+                    </ol>
+                </article>
+            </section>
+
+            <!-- Sección 4: Equipo -->
+            <section id="equipo">
+                <h2>Equipo Necesario</h2>
+                <article>
+                    <p>Para entrenar natación, necesitarás algunos elementos básicos:</p>
+                    <ul>
+                        <li>Traje de baño cómodo tipo licra.</li>
+                        <li>Goggles de natación.</li>
+                        <li>Gorra de natación, preferentemente de silicon.</li>
+                        <li>Aletas y paletas para fuerza (Opcional).</li>
+                    </ul>
+                </article>
+            </section>
+        </div>
+
+        <!-- Barra lateral con publicidad -->
+        <aside>
+            <h3>Publicidad</h3>
+            <div class="publicidad">
+                <a href="https://www.speedo.com.mx/" target="_blank">
+                    <img src="7.jpg" alt="Publicidad 1">
+                    <p>¡Ofertas especiales en trajes de baño! Visita nuestra tienda.</p>
+                </a>
+            </div>
+            <div class="publicidad">
+                <a href="https://www.instagram.com/aqua__sharks?igsh=MWZubThkeWxoZDB2bw==" target="_blank">
+                    <img src="6.jpg" alt="Publicidad 2">
+                    <p>Clases de natación para todas las edades. ¡Inscríbete ya!</p>
+                </a>
+            </div>
+            <div class="publicidad">
+                <a href="hhttps://arenaswim.com.mx/?utm_source=google&utm_medium=cpc&utm_campaign=brand_terms_adview&utm_content=busqueda&gad_source=1&gclid=Cj0KCQiA2oW-BhC2ARIsADSIAWq_Xd_hh790xwkKxU9m5_yOO95ZuAEgEPxuUSPCrmZBeYRa2zrPSZcaApcvEALw_wcB" target="_blank">
+                    <img src="9.png" alt="Publicidad 3">
+                    <p>Equipo de natación de alta calidad. Compra ahora.</p>
+                </a>
+            </div>
+            <div class="publicidad">
+                <a href="https://www.olympics.com/es/" target="_blank">
+                    <img src="10.png" alt="Publicidad 3">
+                    <p>No te pierdas el evento deportivo mas grande del mundo!!.</p>
+                </a>
+            </div>
+        </aside>
+    </main>
+
+    <!-- Pie de página -->
+    <footer id="contacto">
+        <h3>Contacto</h3>
+        <p>¿Tienes preguntas o quieres unirte a nuestras clases? ¡Escríbenos!</p>
+        <form>
+            <input type="text" placeholder="Tu nombre" required>
+            <input type="email" placeholder="Tu email" required>
+            <textarea placeholder="Tu mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <p>&copy; 2025 AQUAWORLD. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
